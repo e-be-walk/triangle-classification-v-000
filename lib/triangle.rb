@@ -23,9 +23,8 @@ class Triangle
   end
 end
 
-  class TriangleError < StandardError
-    def message
-      "Please input the lengths of a triangle."
-    end
+class TriangleError < StandardError
+  def message
+    "Please input the lengths of a triangle."
   end
 end
